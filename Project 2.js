@@ -32,3 +32,9 @@ function playHunter() {
 	};
 };
 playHunter();
+//for loop
+for(var hunter = 5; hunter < 10; hunter = hunter+1) {
+          console.log("value of hunter : " + hunter );
+          console.log("\n");
+      }
+
