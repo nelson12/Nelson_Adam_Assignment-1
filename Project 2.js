@@ -38,3 +38,13 @@ for(var hunter = 5; hunter < 10; hunter = hunter+1) {
           console.log("\n");
       }
 
+//prompt
+var races= prompt("How many races do we have?");
+//while loop
+      while( races < 20 ) {
+         console.log("value of races : " + races );
+         races++;
+         console.log("\n");
+      }
+
+
