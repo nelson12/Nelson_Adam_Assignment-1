@@ -65,5 +65,24 @@ console.log ( "Then stop to eat");
 console.log ( "Keep gaming" );
 }
 
+//confirm
+petName = confirm ("Is your pets name Lucy?");
+//string function
+function havePets() {
+   console.log ("Then you have enough pets");
+}
+havePets();
+
+//and operator
+var petBear= 5;
+var petCat= 4;
+var petWolf= 3;
+
+if (petCat < petWolf && petBear > 10) {
+console.log ("Then no more pets");
+}else{
+console.log ("Get some more pets");
+}
+ 
 
 
