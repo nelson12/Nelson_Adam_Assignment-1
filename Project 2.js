@@ -21,6 +21,14 @@ console.log(" You will be using your " + loggingIn + " to authenticate. ");
 console.log(" You will be a " + yourRace +  yourClass + ".");
 console.log(" Come on " + start + "!"); 
 
-
-
-
+//confirm
+hunter = confirm("Are you going to play a hunter?");
+//boolean function
+function playHunter() {
+	if (hunter == true){
+		console.log("Great Let's Play!!!");
+	}else{
+		console.log("Try it over");
+	};
+};
+playHunter();
