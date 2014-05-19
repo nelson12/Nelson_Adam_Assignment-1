@@ -47,4 +47,11 @@ var races= prompt("How many races do we have?");
          console.log("\n");
       }
 
-
+//number function
+function calcTime() {
+    var loggedIn = "180";
+    var researchTime= "240";
+    var totalTime= loggedIn * researchTime;
+	console.log ("You will have been playing " + totalTime + " hours");
+}
+calcTime();
