@@ -55,3 +55,15 @@ function calcTime() {
 	console.log ("You will have been playing " + totalTime + " hours");
 }
 calcTime();
+//or operator
+var loggedIn = "180";
+var researchTime = "240";
+var totalTime = "5";
+if ( loggedIn < researchTime || totalTime > 4) {
+console.log ( "Then stop to eat");
+}else{
+console.log ( "Keep gaming" );
+}
+
+
+
